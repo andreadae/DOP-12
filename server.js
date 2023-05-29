@@ -9,7 +9,7 @@ const HOST = '0.0.0.0';
 // App
 const app = express(); 
 app.get('/', (req, res) => {
-    res.send('So, jetzt testen wir mal dieses Github YAML'); 
+    res.send('So, jetzt testen wir mal diesen Prozess - eventuell funktioniert es beim zweiten Anlauf'); 
 });
 
 app.listen(PORT, HOST); 
