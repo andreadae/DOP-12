@@ -9,7 +9,7 @@ const HOST = '0.0.0.0';
 // App
 const app = express(); 
 app.get('/', (req, res) => {
-    res.send('Hoi Andrea, das ist der Azure Test'); 
+    res.send('So, jetzt testen wir mal dieses Github YAML'); 
 });
 
 app.listen(PORT, HOST); 
